@@ -1,0 +1,58 @@
+POST http://localhost:4004/odata/v4/catalog/Books
+Content-Type: application/json
+
+{
+  "title": "To Kill a Mockingbird",
+  "stock": 8
+}
+
+
+### Verification: and check JSON response for lowStock property.
+# Expected Outcome: Each book in the response includes lowStock:
+# true if stock < 10, otherwise false.
+
+GET http://localhost:4004/odata/v4/catalog/Books
+
+
+### Exercise 8: Business Logic and Actions (OData # Basics - OData Actions)
+# Action
+# Expected Outcome: Stock decreases by the ordered quantity, and
+# success message is returned.
+# Verification: Check Books entity before and after the action to
+# confirm stock reduction.
+
+POST http://localhost:4004/odata/v4/catalog/submitOrder
+Content-Type: application/json
+
+{
+  "book": "2",
+  "quantity": 2
+}
+
+
+# Exercise 9: Filtering and Querying (OData # Basics - OData Queries)
+# Expected Outcome: Only books with stock less than 10 are returned.
+# Test the following queries in your browser or REST client:
+### 1. Filter by stock:   
+
+GET http://localhost:4004/odata/v4/catalog/Books?$filter=stock lt 10
+
+### 2. Sort by title:
+GET http://localhost:4004/odata/v4/catalog/Books?$orderby=title asc
+
+### 3. Select specific fields:
+GET http://localhost:4004/odata/v4/catalog/Books?$select=title,stock
+
+### 4. Expand associations:
+GET http://localhost:4004/odata/v4/catalog/Books?$expand=author
+
+### 5. Count records:
+GET http://localhost:4004/odata/v4/catalog/Books/$count
+
+
+# Expected Outcome: Each query returns filtered, sorted, or projected
+# data as expected.
+# Exercise 9: Filtering and Querying (OData
+# Basics)
+# Verification: Compare results with full dataset to confirm query
+# behavior.

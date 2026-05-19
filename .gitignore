@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# CAP build output
+gen/
+dist/
+
+# SQLite database files
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CAP local artifacts
+.cds-dxfn-metadata
+
+# Test output
+coverage/
