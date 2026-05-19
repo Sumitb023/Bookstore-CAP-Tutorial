@@ -7,4 +7,5 @@ service CatalogService {
 
     action submitOrder(book: UUID, quantity: Integer) returns String; // action to submit an order for a book with a specified quantity
 
+
 }
