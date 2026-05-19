@@ -15,6 +15,7 @@ entity Books : cuid, managed {
     price       : Decimal(10, 2);
     Chapters    : Association to many Chapters
                       on Chapters.book = $self;
+                      // Add more fields as needed 
 }
 
 entity Authors : cuid, managed {
