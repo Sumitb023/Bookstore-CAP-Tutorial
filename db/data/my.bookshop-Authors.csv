@@ -1,4 +1,6 @@
-ID;name
-101;J.D. Salinger
-102;Harper Lee
-103;George Orwell
+ID,name,createdAt,createdBy,modifiedAt,modifiedBy
+24808963-c58b-4d07-b8dd-27ba6fe0fa32,name-24808963,2020-10-08T00:00:00.000Z,createdBy.erqpv@example.net,2002-12-14T00:00:00.000Z,modifiedBy.erqpv@example.com
+6383377a-42d9-414d-a473-fb21481d75e5,name-6383377,2023-07-21T00:00:00.000Z,createdBy.3stg1@example.com,2007-01-29T00:00:00.000Z,modifiedBy.3stg1@example.org
+63833783-d99a-4ef9-a0c1-a1b32a8ceb94,name-6383378,2010-03-25T00:00:00.000Z,createdBy.3stg2@example.org,2016-09-22T00:00:00.000Z,modifiedBy.3stg2@example.com
+63833797-37f7-4ac6-8a83-26911a4ecc07,name-6383379,2020-05-23T00:00:00.000Z,createdBy.3stg3@example.com,2011-09-24T00:00:00.000Z,modifiedBy.3stg3@example.org
+63833803-5fc9-4001-88e9-94a58c128944,name-6383380,2013-04-08T00:00:00.000Z,createdBy.3stg4@example.com,2017-05-22T00:00:00.000Z,modifiedBy.3stg4@example.net

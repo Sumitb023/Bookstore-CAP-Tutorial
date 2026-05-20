@@ -1,4 +1,6 @@
-ID;title;author_ID;stock
-1;The Catcher in the Rye;101;12
-2;To Kill a Mockingbird;102;8
-3;1984;103;15
+ID,title,author_ID,stock,gernre,publishedAt,pages,price,createdAt,createdBy,modifiedAt,modifiedBy
+5256257f-c824-405b-aaec-55db3401dfe2,title-525625,24808963-c58b-4d07-b8dd-27ba6fe0fa32,52,gernre-525625,2000-11-24,100,44865898.01,2003-09-17T00:00:00.000Z,createdBy.b9kp@example.net,2002-11-19T00:00:00.000Z,modifiedBy.b9kp@example.org
+525626f7-9f04-41af-a173-df8ca93985f0,title-525626,24808963-c58b-4d07-b8dd-27ba6fe0fa32,33,gernre-525626,2004-11-10,12,58971794.06,2011-09-01T00:00:00.000Z,createdBy.b9kq@example.net,2022-03-12T00:00:00.000Z,modifiedBy.b9kq@example.net
+5256278a-48c4-4118-b322-2c9924496123,title-525627,24808963-c58b-4d07-b8dd-27ba6fe0fa32,76,gernre-525627,2014-02-01,18,84100185.78,2015-10-29T00:00:00.000Z,createdBy.b9kr@example.net,2021-09-24T00:00:00.000Z,modifiedBy.b9kr@example.net
+5256283e-bf12-486f-93fc-f36fe56d0161,title-525628,24808963-c58b-4d07-b8dd-27ba6fe0fa32,5,gernre-525628,2020-01-28,100,20897622.91,2016-09-27T00:00:00.000Z,createdBy.b9ks@example.com,2008-10-29T00:00:00.000Z,modifiedBy.b9ks@example.com
+52562982-5560-43b5-9043-82d32faf45e1,title-525629,24808963-c58b-4d07-b8dd-27ba6fe0fa32,99,gernre-525629,2018-09-15,38,48044268.56,2010-01-25T00:00:00.000Z,createdBy.b9kt@example.org,2016-11-24T00:00:00.000Z,modifiedBy.b9kt@example.org
