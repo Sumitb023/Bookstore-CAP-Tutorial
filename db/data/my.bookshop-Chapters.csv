@@ -1,6 +1,6 @@
-ID,title,book_ID,createdAt,createdBy,modifiedAt,modifiedBy
-1436579d-6da1-47b8-8886-79bbcbc4c771,title-1436579,52562982-5560-43b5-9043-82d32faf45e1,2022-04-15T00:00:00.000Z,createdBy.usgz@example.com,2000-07-28T00:00:00.000Z,modifiedBy.usgz@example.com
-1436580c-2ec6-414b-bea8-fa467771b00d,title-1436580,52562982-5560-43b5-9043-82d32faf45e1,2023-09-13T00:00:00.000Z,createdBy.ush0@example.net,2022-03-16T00:00:00.000Z,modifiedBy.ush0@example.com
-14365815-6e93-4cb2-b612-af1f718d5e1e,title-1436581,52562982-5560-43b5-9043-82d32faf45e1,2022-04-08T00:00:00.000Z,createdBy.ush1@example.org,2012-02-05T00:00:00.000Z,modifiedBy.ush1@example.net
-1436582a-a009-4201-990a-2648bdc8a30b,title-1436582,52562982-5560-43b5-9043-82d32faf45e1,2008-07-15T00:00:00.000Z,createdBy.ush2@example.com,2003-05-02T00:00:00.000Z,modifiedBy.ush2@example.com
-14365832-abc5-4eea-9bf8-9220206b2441,title-1436583,52562982-5560-43b5-9043-82d32faf45e1,2008-03-03T00:00:00.000Z,createdBy.ush3@example.org,2002-12-27T00:00:00.000Z,modifiedBy.ush3@example.com
+book_ID,ID,title,number,pages,createdAt,createdBy,modifiedAt,modifiedBy
+11458229-a858-4c15-a460-652d50a0bd29,24380400-fbcb-4ac8-a62f-f8eb79be88d1,title-24380400,83,10,2013-04-19T00:00:00.000Z,createdBy.eik1c@example.org,2023-02-13T00:00:00.000Z,modifiedBy.eik1c@example.org
+11458229-a858-4c15-a460-652d50a0bd29,24380401-750f-4fd0-bd54-b4321600d123,title-24380401,85,92,2012-03-02T00:00:00.000Z,createdBy.eik1d@example.com,2001-01-10T00:00:00.000Z,modifiedBy.eik1d@example.org
+11458229-a858-4c15-a460-652d50a0bd29,24380402-8880-4a1f-b57f-dc8da656e4f3,title-24380402,9,57,2011-11-24T00:00:00.000Z,createdBy.eik1e@example.com,2020-12-21T00:00:00.000Z,modifiedBy.eik1e@example.com
+11458229-a858-4c15-a460-652d50a0bd29,24380403-56ac-47ac-9587-2ba0b26612ef,title-24380403,83,9,2009-01-21T00:00:00.000Z,createdBy.eik1f@example.net,2001-10-18T00:00:00.000Z,modifiedBy.eik1f@example.org
+11458229-a858-4c15-a460-652d50a0bd29,24380404-131e-42d2-b473-cfe9c1020766,title-24380404,14,10,2000-05-13T00:00:00.000Z,createdBy.eik1g@example.com,2021-03-16T00:00:00.000Z,modifiedBy.eik1g@example.com
